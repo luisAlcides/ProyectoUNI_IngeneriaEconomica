@@ -4,6 +4,8 @@ package proyecto.uni.model;
 
 import java.util.ArrayList;
 import java.util.List;
+import javax.swing.JFormattedTextField;
+import javax.swing.JTextField;
 
 /**
  *
@@ -61,6 +63,16 @@ public class Interes {
         this.perido = perido;
     }
     
-    
+     public void limpiar(List<JFormattedTextField> textField) {
+        System.out.println("Entro");
+        for (int i = 0; i < textField.size(); i++) {
+            textField.get(i).setText("");
+        }
+        setCapital(0);
+        setMonto(0);
+        setPerido(0);
+        setTasa(0);
+
+    }
 
 }
