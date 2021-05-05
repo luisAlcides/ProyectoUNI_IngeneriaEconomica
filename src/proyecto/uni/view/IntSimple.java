@@ -456,35 +456,35 @@ public class IntSimple extends javax.swing.JFrame {
 
     
     private void CmbPeridoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CmbPeridoActionPerformed
-       System.out.println(CmbPerido.getSelectedItem().toString());
+      // System.out.println(CmbPerido.getSelectedItem().toString());
  
-        
-        if (CmbPerido.getSelectedItem().toString().equals("Anual")) {
-            LblCapítalizacion.setText("Debe ingresar periodo en Años");
-        }
-        if (CmbPerido.getSelectedItem().toString().equals("Mensual")) {
-            LblCapítalizacion.setText("Debe ingresar periodo en meses");
-        }
-        if (CmbPerido.getSelectedItem().toString().equals(comboBoxSimple.get(3))) {
-            LblCapítalizacion.setText("Debe ingresar periodo en Semestres");
-        }
-        if (comboBoxSimple.get(3).equals(CmbPerido.getSelectedItem().toString())) {
-            LblCapítalizacion.setText("Debe ingresar periodo en Trimestre");
-        }
-        if (comboBoxSimple.get(4).equals(CmbPerido.getItemAt(4))) {
-            LblCapítalizacion.setText("Debe ingresar periodo en Cuatrimestre");
-        }
-        if (comboBoxSimple.get(5).equals(CmbPerido.getItemAt(5))) {
-            LblCapítalizacion.setText("Debe ingresar periodo en Bimestre");
-        }
-        if (comboBoxSimple.get(6).equals(CmbPerido.getItemAt(6))) {
-            LblCapítalizacion.setText("Debe ingresar periodo Dias 360");
-        }
-        if (comboBoxSimple.get(7).equals(CmbPerido.getItemAt(7))) {
-            LblCapítalizacion.setText("Debe ingresar periodo en Dias 365");
+//        
+//        if (CmbPerido.getSelectedItem().toString().equals("Anual")) {
+//            LblCapítalizacion.setText("Debe ingresar periodo en Años");
+//        }
+//        if (CmbPerido.getSelectedItem().toString().equals("Mensual")) {
+//            LblCapítalizacion.setText("Debe ingresar periodo en meses");
+//        }
+//        if (CmbPerido.getSelectedItem().toString().equals(comboBoxSimple.get(3))) {
+//            LblCapítalizacion.setText("Debe ingresar periodo en Semestres");
+//        }
+//        if (comboBoxSimple.get(3).equals(CmbPerido.getSelectedItem().toString())) {
+//            LblCapítalizacion.setText("Debe ingresar periodo en Trimestre");
+//        }
+//        if (comboBoxSimple.get(4).equals(CmbPerido.getItemAt(4))) {
+//            LblCapítalizacion.setText("Debe ingresar periodo en Cuatrimestre");
+//        }
+//        if (comboBoxSimple.get(5).equals(CmbPerido.getItemAt(5))) {
+//            LblCapítalizacion.setText("Debe ingresar periodo en Bimestre");
+//        }
+//        if (comboBoxSimple.get(6).equals(CmbPerido.getItemAt(6))) {
+//            LblCapítalizacion.setText("Debe ingresar periodo Dias 360");
+//        }
+//        if (comboBoxSimple.get(7).equals(CmbPerido.getItemAt(7))) {
+//            LblCapítalizacion.setText("Debe ingresar periodo en Dias 365");
     }//GEN-LAST:event_CmbPeridoActionPerformed
 
-    }
+    
     /**
      * @param args the command line arguments
      */
