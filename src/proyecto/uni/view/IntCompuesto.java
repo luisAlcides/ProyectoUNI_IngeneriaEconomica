@@ -236,7 +236,7 @@ public class IntCompuesto extends javax.swing.JFrame {
             }
         });
 
-        TxtPeriodo.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.NumberFormatter()));
+        TxtPeriodo.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.NumberFormatter(new java.text.DecimalFormat("#0.00"))));
         TxtPeriodo.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyTyped(java.awt.event.KeyEvent evt) {
                 TxtPeriodoKeyTyped(evt);
